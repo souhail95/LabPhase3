@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button:hover {
+  background-color: orangered;
+} 
+.button:active {
+  background-color: yellow;
+} 
+
+::selection{
+  background-color: orangered;
+  color: white;
+}
+
