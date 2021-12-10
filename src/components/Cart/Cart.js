@@ -34,11 +34,7 @@ else     {console.log(cart);
          cart = arr;
          cart.forEach(item  => {removeFromCart(item)})
          cart.filter((item) => (<CartItem key={item.id}   itemData={item}   />))
-<<<<<<< HEAD
-         window.location.reload(true);
-=======
-         
->>>>>>> 857fdc80ad11626c473a46a6cb12643b32bb2864
+                            windows.location.reload(true);
         return [];}
     
 }
