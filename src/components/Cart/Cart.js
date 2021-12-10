@@ -34,7 +34,7 @@ else     {console.log(cart);
          cart = arr;
          cart.forEach(item  => {removeFromCart(item)})
          cart.filter((item) => (<CartItem key={item.id}   itemData={item}   />))
-         windows.location.href = windows.location.href;
+         document.location.reload(true);
         return [];}
     
 }
