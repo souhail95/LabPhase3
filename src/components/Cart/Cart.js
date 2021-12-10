@@ -2,7 +2,7 @@ import   React,{useState, useEffect} from 'react';
 import CartItem from "./CartItem/CartItem";
 import {connect} from 'react-redux';
 import { removeFromCart } from "../../app/Shopping/shopping-actions";
-
+import { Navigate } from "react-router-dom"
 
 
 const Cart = ({cart}) => {
@@ -20,7 +20,7 @@ useEffect(() => {
     setTotalPrice(price) ;  
     setTotalItems(items) ;
 }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems])
-function purchaseClicked(){
+function PurchaseClicked(){
    let arr = [];
    
     if(totalItems===0){
@@ -34,10 +34,12 @@ else     {console.log(cart);
          cart = arr;
          cart.forEach(item  => {removeFromCart(item)})
          cart.filter((item) => (<CartItem key={item.id}   itemData={item}   />))
-                            windows.location.reload(true);
-        return [];}
+         
+        
+         window.location.href = "https://souhail95.github.io/1/";
+           return(<Navigate to = "https://souhail95.github.io/1/"  />)
     
-}
+}}
 return(
    <div>
    <div style={{marginTop:'10%',marginBottom:'10%',marginLeft:'4%'}} class='row'  >
@@ -49,7 +51,7 @@ return(
        <span style={{color:'white'}} >TOTAL: ({totalItems }   items)</span>
        <span  style={{color:'white'}} >$ {totalPrice} </span>
    </div>
-   <button   class="btn btn-light" onClick={()=>purchaseClicked()} >Purchase</button>
+   <button   class="btn btn-light" onClick={()=>PurchaseClicked()} >Purchase</button>
    </div>
    </div>
 );
