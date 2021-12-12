@@ -12,7 +12,7 @@ function App({currentItem}) {
   console.log(currentItem);
   return (
     <div className="App">
-    <Router     basename={window.location.pathname ||    ''} >
+    <Router     basename="/LabPhase3" >
    
       <Navbar/>
 <Routes>

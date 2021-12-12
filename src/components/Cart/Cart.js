@@ -36,8 +36,8 @@ else     {console.log(cart);
          cart.filter((item) => (<CartItem key={item.id}   itemData={item}   />))
          
         
-         window.location.href = "https://souhail95.github.io/1/";
-           return(<Navigate to = "https://souhail95.github.io/1/"  />)
+         window.location.href = "https://souhail95.github.io/LabPhase3/";
+           return(<Navigate to = "https://souhail95.github.io/LabPhase3/"  />)
     
 }}
 return(
