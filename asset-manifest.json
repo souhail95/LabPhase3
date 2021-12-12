@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/LabPhase3/static/css/main.b565d94e.chunk.css",
+    "main.js": "/LabPhase3/static/js/main.550b050b.chunk.js",
+    "main.js.map": "/LabPhase3/static/js/main.550b050b.chunk.js.map",
+    "runtime-main.js": "/LabPhase3/static/js/runtime-main.8ba91e98.js",
+    "runtime-main.js.map": "/LabPhase3/static/js/runtime-main.8ba91e98.js.map",
+    "static/js/2.77bcd83b.chunk.js": "/LabPhase3/static/js/2.77bcd83b.chunk.js",
+    "static/js/2.77bcd83b.chunk.js.map": "/LabPhase3/static/js/2.77bcd83b.chunk.js.map",
+    "index.html": "/LabPhase3/index.html",
+    "static/css/main.b565d94e.chunk.css.map": "/LabPhase3/static/css/main.b565d94e.chunk.css.map",
+    "static/js/2.77bcd83b.chunk.js.LICENSE.txt": "/LabPhase3/static/js/2.77bcd83b.chunk.js.LICENSE.txt",
+    "static/media/almas-caviar.61d06418.jpg": "/LabPhase3/static/media/almas-caviar.61d06418.jpg",
+    "static/media/black chicken.6f8fa052.jpg": "/LabPhase3/static/media/black chicken.6f8fa052.jpg",
+    "static/media/black watermelon.10de6d13.jpg": "/LabPhase3/static/media/black watermelon.10de6d13.jpg",
+    "static/media/caviar.eaa9a3a6.jpg": "/LabPhase3/static/media/caviar.eaa9a3a6.jpg",
+    "static/media/foie gras.00bcc0c6.jpg": "/LabPhase3/static/media/foie gras.00bcc0c6.jpg",
+    "static/media/saffron.63eb9bdc.jpg": "/LabPhase3/static/media/saffron.63eb9bdc.jpg",
+    "static/media/vanilla.4133e577.jpg": "/LabPhase3/static/media/vanilla.4133e577.jpg",
+    "static/media/wagyu beef.4d2bc689.jpg": "/LabPhase3/static/media/wagyu beef.4d2bc689.jpg",
+    "static/media/white truffle.6658afb9.jpg": "/LabPhase3/static/media/white truffle.6658afb9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ba91e98.js",
+    "static/js/2.77bcd83b.chunk.js",
+    "static/css/main.b565d94e.chunk.css",
+    "static/js/main.550b050b.chunk.js"
+  ]
+}
